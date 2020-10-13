@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesanime.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascriptfile.js"></script>
+    
+    <title>Hello, world!</title>
+  </head>
+  <body style="background-image: url(images/tvshows.jpg);">
+    <!-- Navigation bar -->
+    <ul class="navv">
+      <li><a href="index.html" >HOME</a></li>
+      <li><a href="anime.html">ANIME</a></li>
+      <li><a href="tvshowss.html">TV SHOWS</a></li>
+      <li><a href="feedback.html">FEEDBACK</a></li>
+      <li><button type="button" class="buttonpluse" data-toggle="modal" data-target="#verify">+</button></li>
+    </ul>
+
+
+    <!-- VErification -->
+    <div class="modal fade" id="verify" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="verify" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header" style="background-color: black; color: white;">
+              <h5 class="modal-title" id="staticBackdropLabel">Are you an Authenticated User?</h5>
+              <button type="button" style="color: white;" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body body-color">
+                <form>
+                    <div class="form-group" style="color: white;">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="pass">
+                    </div>
+                    <center><button type="button" class="btn" onclick="CheckPassword()" style="background-color:red; color: white;" id="myBtn">Submit</button></center>
+                  </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modals -->
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content body-color">
+            <div class="modal-header">
+              <h5 class="modal-title secondary" id="exampleModalLabel">Add New Link</h5>
+              <button type="button" class="close" style="color: white;" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="formGroupExampleInput" class="secondary">Give Title</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Title Name">
+                </div>
+                <div class="form-group">
+                  <label for="formGroupExampleInput2" class="secondary">Url Magnet link</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="enter url">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+     
+
+    <h1 class="heading">TORRENT DOWNLOAD</h1>
+
+    <div class="container">
+    <center><input class="myinput" type="text" id="myInput" onkeyup="search()" placeholder="Search for TV SHOW.." title="Type in a name"></center>
+    </div>
+
+
+    <!-- Download links -->
+    <div class="container">
+    <ul class="dynamic-list" id="myUL">
+      <li class="showslist">
+        <a href="#" class="showtitle">Suits Season 1 720p</a>
+        <a href="magnet:?xt=urn:btih:B0C65FEFF3644EBD09BBEA06704B9C22E368CD01&dn=Suits.S01.Season.1.720p.HDTV.x264.MIKY&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+          <img src="images/download.png" class="download">
+        </a>
+      </li>
+      <li class="showslist">
+        <a href="#" class="showtitle">Suits Season 2 720p</a>
+        <a href="magnet:?xt=urn:btih:344A1A6B5171C9E68B20112E062A36F273C67694&dn=Suits+S02+Season+2+720p+Web-DL+ReEnc-DeeJayAhmed&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+          <img src="images/download.png" class="download">
+        </a>
+      </li> 
+      <li class="showslist">
+        <a href="#" class="showtitle">Suits Season 3 720p</a>
+        <a href="magnet:?xt=urn:btih:87CB4FEDE943F9819AA7E4B382985F7ED9627D56&dn=Suits+S03+Season+3+720p+5.1Ch+Web-DL+ReEnc-DeeJayAhmed&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+          <img src="images/download.png" class="download">
+        </a>
+      </li> 
+      <li class="showslist">
+        <a href="#" class="showtitle">Suits Season 4 720p</a>
+        <a href="magnet:?xt=urn:btih:FA5808AE32A36A9C954676857B2AB16FBC86C04D&dn=Suits+S04+Season+4+720p+5.1Ch+Web-DL+ReEnc-DeeJayAhmed&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+          <img src="images/download.png" class="download">
+        </a>
+      </li> 
+      <li class="showslist">
+        <a href="#" class="showtitle">Suits Season 5 720p</a>
+        <a href="magnet:?xt=urn:btih:B3A4B6E1C98BB7EAC9689F3109170727C720575A&dn=Suits+S05+Season+5+720p+5.1Ch+Web-DL+ReEnc-DeeJayAhmed&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+          <img src="images/download.png" class="download">
+        </a>
+      </li>               
+    <li class="showslist">
+      <a href="#" class="showtitle">Suits Season 6 720p</a>
+      <a href="magnet:?xt=urn:btih:DCC530C0D5F7ED794FE64AD5925BC2B458024E20&dn=Suits+-+Full+Season+6+-+720p+HDTV+-+x265+HEVC+%5BEng+subs%5D&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+        <img src="images/download.png" class="download">
+      </a>
+    </li>
+
+    <li class="showslist">
+      <a href="#" class="showtitle">Mr Robot Season 1 720p</a>
+      <a href="magnet:?xt=urn:btih:10255B52D6E7041D75770F091A69F7F4ECC90393&dn=Mr.+Robot+-+Season+1+-+720p+BluRay+-+x264+-+ShAaNiG&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+        <img src="images/download.png" class="download">
+      </a>
+    </li> 
+
+    <li class="showslist">
+      <a href="#" class="showtitle"> Mr Robot Season 2 720p</a>
+      <a href="magnet:?xt=urn:btih:ACCD778E8EF86005A9B3E8B9407675862E306A90&dn=Mr+Robot+Season+2+Complete+720p+WEB-DL+EN-SUB+x264-%5BMULVAcoded%5D&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+        <img src="images/download.png" class="download">
+      </a>
+    </li> 
+
+    <li class="showslist">
+      <a href="#" class="showtitle"> Mr Robot Season 3 720p</a>
+      <a href="magnet:?xt=urn:btih:62460F694C8EC71CA0EA794492CD0E8DEE92CBF7&dn=Mr.Robot.Season.3.Complete.720p.HDTV.x264-GHETTO&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+        <img src="images/download.png" class="download">
+      </a>
+    </li> 
+
+    <li class="showslist">
+      <a href="#" class="showtitle">  Mr Robot Season 4 720p</a>
+      <a href="magnet:?xt=urn:btih:E759D421F8A47475119753DC88CDD0A90EFF8D27&dn=Mr+Robot+Season+4+Complete+720p+AMZN+WEB-DL+x264+%5Bi_c%5D&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+        <img src="images/download.png" class="download">
+      </a>
+    </li> 
+
+    <li class="showslist">
+      <a href="#" class="showtitle"> Breaking Bad Season 1 720p</a>
+      <a href="magnet:?xt=urn:btih:72A391645B5EA76DD6F5ADE169FFDA943AA81649&dn=Breaking+Bad+Season+1+Complete+720p.BRrip.Sujaidr+%28pimprg%29&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+        <img src="images/download.png" class="download">
+      </a>
+    </li> 
+
+    <li class="showslist">
+      <a href="#" class="showtitle"> Breaking Bad Season 2 720p</a>
+      <a href="magnet:?xt=urn:btih:3B55EA2F9F5FA8D38894FE7FBE4D82DB2A549EE5&dn=Breaking+Bad+Season+2+Complete+720p.BRrip.Sujaidr&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+        <img src="images/download.png" class="download">
+      </a>
+    </li> 
+
+    <li class="showslist">
+      <a href="#" class="showtitle"> Breaking Bad Season 3 720p</a>
+      <a href="magnet:?xt=urn:btih:171765BE4AC23B2F99B4215A42C1036F8C92F9A3&dn=Breaking+Bad+Season+3+Complete+720p.BRrip.Sujaidr&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+        <img src="images/download.png" class="download">
+      </a>
+    </li> 
+
+    <li class="showslist">
+      <a href="#" class="showtitle">  Breaking Bad Season 4 720p</a>
+      <a href="magnet:?xt=urn:btih:93A304279C73579873ABDABBA126F79EFED5A86A&dn=Breaking+Bad+Season+4+Complete+720p.BRrip.Sujaidr&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+        <img src="images/download.png" class="download">
+      </a>
+    </li> 
+
+    <li class="showslist">
+      <a href="#" class="showtitle">  Breaking Bad Season 5 720p</a>
+      <a href="magnet:?xt=urn:btih:921A252971F94E988C5980D1FCBDDC77E48EE99C&dn=Breaking+Bad+Season+5+Complete+720p.BRrip.Sujaidr&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+        <img src="images/download.png" class="download">
+      </a>
+    </li> 
+
+    <li class="showslist">
+      <a href="#" class="showtitle"> MindHunter Season 1 720p</a>
+      <a href="magnet:?xt=urn:btih:7E8C4EA5DA27CD97E5A567B82698A2D270EE3783&dn=Mindhunter+Season+1+S01+720p+WEBRip+x265-HETeam&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+        <img src="images/download.png" class="download">
+      </a>
+    </li> 
+    <li class="showslist">
+      <a href="#" class="showtitle">MindHunter Season 2 720p</a>
+      <a href="magnet:?xt=urn:btih:BAB8EEC30AC175FD03543E93AD278F347B3188DA&dn=Mindhunter.S02.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+        <img src="images/download.png" class="download">
+      </a>
+    </li> 
+
+  </ul>
+    <!--sample to use 
+
+    <li class="showslist">
+      <a href="#" class="showtitle">Show name</a>
+      <a href="" download>
+        <img src="images/download.png" class="download">
+      </a>
+    </li> 
+    -->
+
+  </div>
+
+  <!-- Stream online -->
+  <div class="container">
+  <h1 class="heading">STREAM ONLINE</h1>
+  <ul class="dynamic-list">
+    <li class="showslist">
+      FMovies
+      <a class="linkss" href="https://fmovies.co/">
+        Go To Link
+      </a>
+    </li>
+    <li class="showslist">
+      MoviesJoy
+      <a class="linkss" href="https://www.moviesjoy.net/">
+        Go To Link
+      </a>
+    </li>             
+  </ul>
+</div>
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+       </body>
+</html>

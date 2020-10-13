@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesanime.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascriptfile.js"></script>
+    
+    <title>Hello, world!</title>
+  </head>
+  <body style="background-image: url(images/anime.jpg);">
+    <!-- Navigation bar -->
+    <ul class="navv">
+      <li><a href="index.html" >HOME</a></li>
+      <li><a href="anime.html">ANIME</a></li>
+      <li><a href="tvshowss.html">TV SHOWS</a></li>
+      <li><a href="feedback.html">FEEDBACK</a></li>
+      <li><button type="button" class="buttonpluse" data-toggle="modal" data-target="#verify">+</button></li>
+    </ul>
+  
+
+    <!-- VErification -->
+    <div class="modal fade" id="verify" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="verify" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header" style="background-color: black; color: white;">
+              <h5 class="modal-title" id="staticBackdropLabel">Are you an Authenticated User?</h5>
+              <button type="button" style="color: white;" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body body-color">
+                <form>
+                    <div class="form-group" style="color: white;">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="pass">
+                    </div>
+                    <center><button type="button" class="btn" onclick="CheckPassword()" style="background-color:red; color: white;" id="myBtn">Submit</button></center>
+                  </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modals -->
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content body-color">
+            <div class="modal-header">
+              <h5 class="modal-title secondary" id="exampleModalLabel">Add New Link</h5>
+              <button type="button" class="close" style="color: white;" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="formGroupExampleInput" class="secondary">Give Title</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Title Name">
+                </div>
+                <div class="form-group">
+                  <label for="formGroupExampleInput2" class="secondary">Url Magnet link</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="enter url">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+     
+
+    <h1 class="heading">TORRENT DOWNLOAD</h1>
+
+    <!-- Download links -->
+    <div class="container">
+      <center><input class="myinput" type="text" id="myInput" onkeyup="search()" placeholder="Search for TV SHOW.." title="Type in a name"></center>
+      </div>
+  
+  
+      <!-- Download links -->
+      <div class="container">
+      <ul class="dynamic-list" id="myUL">
+        <li class="showslist">
+          <a href="#" class="showtitle">Kimi no na wa (Your Name) English Dubbed 1080p BluRay</a>
+          <a href="magnet:?xt=urn:btih:d25c019fef45c41cd3f0bef647078cb443d07545&dn=Your%20Name%202016%20English%20Dubbed%201080p%20BluRay%20x264%20%5B1.5GB%5D%20%5BKimi%20no%20Na%20wa%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li>
+        <li class="showslist">
+          <a href="#" class="showtitle">Kimi no na wa (Your Name) English Subbed 720p</a>
+          <a href="magnet:?xt=urn:btih:FF5474FA8B1554E3401077E185FB314C0473E6C7&dn=Kimi+no+Na+wa+%28Your+Name%29+HDrip+720p+aac+x264+English+hardsub&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li> 
+        <li class="showslist">
+          <a href="#" class="showtitle">Shingeki no Kyojin (Attack on Titan) Season 1 Dual Audio 1080p</a>
+          <a href="magnet:?xt=urn:btih:ce938d21e2886146b73600c8fe52bce812ccb83f&dn=%5BJudas%5D%20Shingeki%20no%20Kyojin%20%28Attack%20on%20Titan%29%20%28Season%201%29%20%5BBD%201080p%5D%5BHEVC%20x265%2010bit%5D%5BDual-Audio%5D%5BEng-Subs%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li>
+        <li class="showslist">
+          <a href="#" class="showtitle">Shingeki no Kyojin (Attack on Titan) Season 2 Dual Audio 1080p</a>
+          <a href="magnet:?xt=urn:btih:efdf3d0536b004939b30cc7a830c4bf7fc7c795f&dn=%5BJudas%5D%20Shingeki%20no%20Kyojin%20%28Attack%20on%20Titan%29%20%28Season%202%29%20%5BBD%201080p%5D%5BHEVC%20x265%2010bit%5D%5BDual-Audio%5D%5BEng-Subs%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li>
+        <li class="showslist">
+          <a href="#" class="showtitle">Shingeki no Kyojin (Attack on Titan) Season 3 (Part 1) Dual Audio 1080p</a>
+          <a href="magnet:?xt=urn:btih:fc9308e23ac11909034c461d4bbc6bc59b23b532&dn=%5BDB%5D%20Shingeki%20no%20Kyojin%20Season%203%20%7C%20Attack%20on%20Titan%20Season%203%20%5BEng%205.1%20AAC%5D%20%5BDual%20Audio%2010bit%20BD1080p%5D%5BHEVC-x265%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li>
+        <li class="showslist">
+          <a href="#" class="showtitle">Shingeki no Kyojin (Attack on Titan) Season 3 (Part 2) Dual Audio 1080p</a>
+          <a href="magnet:?xt=urn:btih:bfd90a1367df24df7cfbed8347ea078db1e565ca&dn=%5BDB%5D%20Shingeki%20no%20Kyojin%20Season%203%20Part%202%20%7C%20Attack%20on%20Titan%20Season%203%20Part%202%20%5BDual%20Audio%2010bit%20BD1080p%5D%5BHEVC-x265%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li>
+        <li class="showslist">
+          <a href="#" class="showtitle">Tokyo Ghoul Season 1 Dual Audio 1080p</a>
+          <a href="magnet:?xt=urn:btih:df99af99e35ec46dded86a4cb4bebae24287e974&dn=%5BAnimeRG%5D%20Tokyo%20Ghoul%20%28Complete%20Season%2001%29%2001-12%20%5B1080p%5D%20%5BDUAL-AUDIO%5D%20%5BBD%5D%20%5B5.1%20AAC%5D%20%5BHEVC%5D%20%5Bx265%5D%20%5Bpseudo%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li>
+        <li class="showslist">
+          <a href="#" class="showtitle">Tokyo Ghoul Season 1 and 2 Dual Audio 480p</a>
+          <a href="magnet:?xt=urn:btih:4B6FC97D5AC1F4F4C1AA797D31B330042B600135&dn=%5BF-D%5D+Tokyo+Ghoul+Season+1+%26amp%3B+2+Complete+%5B480P%5D%5BDual-Audio%5D&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li> 
+        <li class="showslist">
+          <a href="#" class="showtitle">My Hero Academia Movie - Heroes Rising Eng Sub 1080p</a>
+          <a href="magnet:?xt=urn:btih:b5dbc30f23e2d064f8bb067796917f345eb9180e&dn=%5BAnime%20Time%5D%20Boku%20No%20Hero%20Academia%20-%20The%20Movie%20-%20Heroes%20Rising%202019%20%5BBD%5D%5B1080p%5D%5BHEVC%2010bit%20x265%5D%5BAAC%5D%20%28My%20Hero%20Academia%20Heroes%20Rising%29.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li> 
+        <li class="showslist">
+          <a href="#" class="showtitle">My Hero Academia Season 1 Dual Audio 720p</a>
+          <a href="magnet:?xt=urn:btih:e1366fbfebd82dd4c7746f883a93205ead8ccc87&dn=%5BAnimeRG%5D%20My%20Hero%20Academia%20%28Season%2001%29%20Boku%20no%20Hero%20Academia%20%5B720p%5D%20%5BBD%5D%20%5BDual-Audio%5D%20%5BAVC%5D%20%5Bx264%5D%20%5BBatch%5D%20%5Bpseudo%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li> 
+        <li class="showslist">
+          <a href="#" class="showtitle">My Hero Academia Season 2 Dual Audio 720p</a>
+          <a href="magnet:?xt=urn:btih:6f50804ae358a8e04fe98af94823041f1ee9b707&dn=%5BCleo%5D%20Boku%20no%20Hero%20Academia%202nd%20Season%20%7C%20My%20Hero%20Academia%202%20%5BDual%20Audio%2010bit%20720p%5D%5BHEVC-x265%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li> 
+        <li class="showslist">
+          <a href="#" class="showtitle">My Hero Academia Season 3 Dual Audio 1080p</a>
+          <a href="magnet:?xt=urn:btih:e9d8504935cd4f1254ae40b5a8b47c75327854a7&dn=%5BCleo%5D%20Boku%20no%20Hero%20Academia%203rd%20Season%20%7C%20My%20Hero%20Academia%203%20%5BDual%20Audio%2010bit%201080p%5D%5BHEVC-x265%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li>  
+        <li class="showslist">
+          <a href="#" class="showtitle">My Hero Academia Season 4 Dual Audio 1080p</a>
+          <a href="magnet:?xt=urn:btih:9c574ecc2279c611785525cfd987bf43780079e3&dn=%5BCleo%5D%20Boku%20no%20Hero%20Academia%204th%20Season%20%7C%20My%20Hero%20Academia%204%20%5BDual%20Audio%2010bit%201080p%5D%5BHEVC-x265%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li> 
+        <li class="showslist">
+          <a href="#" class="showtitle">Death Note Complete Dual Audio 1080p</a>
+          <a href="magnet:?xt=urn:btih:263611b70041a768436e71e6e05c6faa1e78ff29&dn=Death%20Note%20%5BBDRip%201080p%5D%5BHEVC%20x265%2010bit%5D%5BDual-Audio%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li> 
+        <li class="showslist">
+          <a href="#" class="showtitle">Code Geass Season 1 Dual Audio 1080p</a>
+          <a href="magnet:?xt=urn:btih:ccbb17e153e61edba55b0468eee588f55ebbe897&dn=%5BCBM%5D%20Code%20Geass%20Season%201%20%28Dual%20Audio%29%20%5BBD%201080p%2010bit%20x265%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li> 
+        <li class="showslist">
+          <a href="#" class="showtitle">Code Geass Season 2 Dual Audio 1080p</a>
+          <a href="magnet:?xt=urn:btih:1b11eba1f78278250a57af5bd55dc890ccebb45c&dn=%5BCBM%5D%20Code%20Geass%20Season%202%20%28Dual%20Audio%29%20%5BBD%201080p%2010bit%20x265%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li> 
+        <li class="showslist">
+          <a href="#" class="showtitle">Future Diary (Mirai Nikki) 720p English Dub</a>
+          <a href="magnet:?xt=urn:btih:5B4ECB89B38947D1BA412DD9FEC59FAF46D0C065&dn=Future+Diary+Mirai+Nikki+720p+English+Dub+Uncensored&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce" download>
+            <img src="images/download.png" class="download">
+          </a>
+        </li> 
+
+  </ul>
+    <!--sample to use 
+
+    <li class="showslist">
+      <a href="#" class="showtitle">Show name</a>
+      <a href="" download>
+        <img src="images/download.png" class="download">
+      </a>
+    </li> 
+    -->
+
+  </div>
+
+  <!-- Stream online -->
+  <div class="container">
+  <h1 class="heading">STREAM ONLINE</h1>
+  <ul class="dynamic-list">
+    <li class="showslist">
+      Kiss Anime
+      <a class="linkss" href="https://kissanime.nz/">
+        Go To Link
+      </a>
+    </li>
+    <li class="showslist">
+      9 Anime
+      <a class="linkss" href="https://9anime-tv.com/">
+        Go To Link
+      </a>
+    </li>             
+  </ul>
+</div>
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+       </body>
+</html>

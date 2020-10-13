@@ -1,0 +1,118 @@
+body{
+    font-family: Lato;
+}
+.body-color
+{
+    background-color: black;
+}
+.secondary{
+    color: white;
+}
+.navv{
+    list-style:none;
+    margin:0;
+    padding-top:25px;
+    padding-bottom: 5px;
+    text-align:center;
+}
+.navv li{
+    display:inline;
+    padding: 2%;
+}
+.navv a{
+    display:inline-block;
+    padding:2%;
+    color:white;
+    text-decoration: none;
+}
+.torrent-image
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:25%;
+}
+.tvshows
+{
+    display: block;
+    width: 80%;
+    padding: 2%;
+    padding-top: 0px;
+}
+h1.tvshowstext
+{
+    color:white;
+    text-align: center;
+    font-size: 250%;
+}
+a.mainbutton
+{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-size: 150%;
+  border-radius: 10px;
+  align-items: center;
+  font-weight: bold;
+}
+.mainbutton:hover 
+{
+    background-color: transparent;
+    color: white;
+    border-color: red;
+    border-style: solid;
+}
+hr { 
+    position: relative;  
+    border: none; 
+    height: 12px; 
+    background: #202020; 
+    margin-bottom: 10%; 
+    margin-top: 5%;
+} 
+.card-header{
+    color:white;
+    background-color: #202020;
+    font-size: 200%;
+    float: left;
+}
+.card{
+    background-color: #202020;
+    margin: 1%;
+}
+.about{
+    margin-bottom: 2%;
+    margin-top: -8%;
+    color: white;
+    font-weight: 30px;
+}
+.pluse{
+    background-color:transparent;
+    color: white;
+    font-size: 150%;
+    float: right;
+}
+.card-body{
+    color: white;
+    font-size: 150%;
+    padding: 20px;
+    padding-top: 0px;
+}
+.accordion{
+    background-color: black;
+}
+.disclaimer{
+    text-align: center;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 2%;
+    margin-top: -8%;
+    font-size: 100%;
+}

@@ -1,0 +1,69 @@
+.buttonpluse{
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 200%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 2%;
+}
+.dynamic-list{
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0%;
+    margin-bottom: 0;
+}
+.showslist{
+    position: relative;
+    display: block;
+    padding: 1% 1.5%;
+    margin-bottom: 2%;
+    background-color:
+    #202020;
+    border: 1px solid
+    rgba(0,0,0,.125);
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    color: white;
+    font-size: 100%;
+}
+.download{
+    height: 20px;
+    width: 20px;
+    float: right;
+}
+.heading{
+    color: white; 
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+}
+.linkss{
+    float: right;
+    text-decoration: none;
+    color: red;
+}
+.myinput{
+background-image: url('images/search.png');
+background-position: 10px 12px;
+background-size: 20px;
+background-repeat: no-repeat;
+  width: 75%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 3%;
+  border-radius: 2rem;
+}
+a.showtitle{
+    color: white;
+    text-decoration: none;
+}
