@@ -8,7 +8,6 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-right: 2%;
 }
 .dynamic-list{
     display: flex;
@@ -31,11 +30,11 @@
     border-bottom-left-radius: .25rem;
     border-bottom-right-radius: .25rem;
     color: white;
-    font-size: 100%;
+    font-size: 1.4vw;
 }
 .download{
-    height: 20px;
-    width: 20px;
+    height: 2%;
+    width: 2%;
     float: right;
 }
 .heading{
@@ -44,7 +43,7 @@
     margin-bottom: 5%;
     font-weight: bold;
     text-align: center;
-    font-size: 200%;
+    font-size: 2vw;
 }
 .linkss{
     float: right;
@@ -54,10 +53,10 @@
 .myinput{
 background-image: url('images/search.png');
 background-position: 10px 12px;
-background-size: 20px;
+background-size: 3%;
 background-repeat: no-repeat;
   width: 75%;
-  font-size: 16px;
+  font-size: 1.4vw;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin-bottom: 3%;
