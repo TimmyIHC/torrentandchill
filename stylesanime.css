@@ -44,6 +44,7 @@
     font-weight: bold;
     text-align: center;
     font-size: 2vw;
+    padding-left: 10vw;
 }
 .linkss{
     float: right;
@@ -65,4 +66,17 @@ background-repeat: no-repeat;
 a.showtitle{
     color: white;
     text-decoration: none;
+}
+a.update{
+    padding-right: 2vw;
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding-right: 2vw;
+    padding-top: 0.5vw;
+    font-size: 1.4vw;
+}
+a.update:hover{
+    text-decoration: none;
+    color: red;
 }
