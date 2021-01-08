@@ -103,6 +103,7 @@ hr {
     padding-right: 15%;
     padding-bottom: 2%;
     font-size: 1.2vw;
+    background-color: black; 
 }
 .abs-center-x {
     position: absolute;

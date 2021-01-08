@@ -1,13 +1,12 @@
-.buttonpluse{
-    background-color: white;
-    border: none;
-    color: black;
-    text-align: center;
+a.buttonpluse{
+    color: white;
     text-decoration: none;
-    font-size: 200%;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    font-size: clamp(1.5rem,2.5vw,2.0rem);
+    margin-left: 5%;
+}
+a.buttonpluse:hover{
+    text-decoration: none;
+    color: red;
 }
 .dynamic-list{
     display: flex;
@@ -30,7 +29,10 @@
     border-bottom-left-radius: .25rem;
     border-bottom-right-radius: .25rem;
     color: white;
-    font-size: clamp(0.8rem,2.5vw,1.2rem);
+    font-size: clamp(0.5rem,2vw,1.2rem);
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
 }
 .download{
     width: 15px;
@@ -63,6 +65,7 @@ background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin-bottom: 3%;
+  margin-left: 7%;
   border-radius: 2rem;
 }
 a.showtitle{
