@@ -105,7 +105,6 @@ hr {
   z-index: 0;
   border-radius: 10px;
 }
-
 .glow-on-hover:before {
   content: '';
   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
@@ -122,7 +121,6 @@ hr {
   transition: opacity .3s ease-in-out;
   border-radius: 10px;
 }
-
 .glow-on-hover:active {
   color: #000
 }
@@ -152,7 +150,3 @@ hr {
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
-
-
-
-
